@@ -1,0 +1,17 @@
+@media(max-width: 1091px){
+    .photo-flex{
+        flex-wrap: nowrap;
+    }
+}
+
+@media(max-width: 912px){
+    .body-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-flex{
+        width: 100%;
+        height: 488.5px;
+    }
+}

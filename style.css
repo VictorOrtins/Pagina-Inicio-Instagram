@@ -1,0 +1,149 @@
+/*Base do código*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+*{
+    --corDeFundo: rgb(243,243,243);
+    --entreBlocos: white;
+    --borda: rgba(131, 131, 131, 0.438);
+    --azul: rgb(64, 133, 224);
+}
+
+body{
+    width: 50%;
+    margin: auto;
+    background-color: var(--corDeFundo);
+}
+
+.blue-color{
+    color: var(--azul)
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Classes principais*/
+
+.body-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.phone-flex{
+    margin-right: 30px;
+}
+
+.info-flex{
+    width: 50%;
+    min-width: 296.31px;
+}
+
+.account-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--entreBlocos);
+    height: 58%;
+    justify-content: space-evenly;
+}
+
+
+.switch-flex{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 14%;
+    background-color: var(--entreBlocos);
+    justify-content: center;
+}
+
+
+.photo-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.improv-flex{
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}
+
+.weird-text{
+    order: 1;
+}
+
+.info-flex-item{
+    margin-bottom: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-flex, .switch-flex{
+    border: 2px solid var(--borda);
+}
+
+/*Imagens*/
+
+.insta-logo{
+    margin-top: 20px;
+}
+
+.profile-pic img{
+    border-radius: 80px;
+}
+
+.info-img img{
+    height: 50px;
+    width: 130px;
+    margin-right: 6px;
+}
+
+#main-image{
+    height: 500px;
+}
+
+.phone-flex-img{
+    width: 100%;
+}
+
+/*Text Margins*/
+.switch-flex p{
+    margin-bottom: 2px;
+}
+
+.improv-flex p, .improv-flex a{
+    margin-right: 3px;
+}
+
+.more-info-flex p{
+    margin-bottom: 16px;
+}
+
+/*Button*/
+
+.button{
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 4px 20px;
+    border: none;
+}
+
+.blue-button{
+    background-color: var(--azul);
+    color: white;
+}
+
+
+
+
+
+
+
